@@ -1,3 +1,6 @@
 [submodule "micro-app-1"]
 	path = micro-app-1
 	url = https://github.com/eduvvz/micro-app-1.git
+[submodule "micro-app-2"]
+	path = micro-app-2
+	url = https://github.com/eduvvz/micro-app-2.git
