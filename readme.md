@@ -12,4 +12,4 @@ Run:
 docker-compose up
 ```
 
-And acess [localhost/react](http://localhost/react) or [localhost/next](http://localhost.next).
+And access [localhost/react](http://localhost/react) or [localhost/next](http://localhost.next).
