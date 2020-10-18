@@ -1,0 +1,21 @@
+version: "3.7"
+services:
+  micro-app-1:
+    container_name: micro-app-1
+    build:
+      context: ./micro-app-1
+
+  micro-app-2:
+    container_name: micro-app-2
+    build: 
+      context: ./micro-app-2
+
+  orchestrator:
+    container_name: orchestrator
+    ports:
+      - 80:80
+    depends_on:
+      - micro-app-1
+      - micro-app-2
+    build:
+      context: .
