@@ -9,6 +9,14 @@ Need docker and docker-compose installed.
 Run:
 
 ```powershell
+git clone https://github.com/eduvvz/microapps.git
+```
+
+```powershell
+git submodule update --init
+```
+
+```powershell
 docker-compose up
 ```
 
